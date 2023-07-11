@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,16 +10,24 @@
     <link rel="stylesheet" href="./index.styles.css" type="text/css">
     <title>David Perez | Personal Porfolio</title>
 </head>
+
 <body>
     <section class="navbar-container">
         <nav class="navbar-container__nav">
             <ul class="navbar__ul">
-                <a href="#"><li class="navbar__li">About Me</li></a>
-                <a href="#"><li class="navbar__li">Portfolio</li></a>
-                <a href="#"><li class="navbar__li">Cooperation</li></a>
+                <a href="#">
+                    <li class="navbar__li">About Me</li>
+                </a>
+                <a href="#">
+                    <li class="navbar__li">Portfolio</li>
+                </a>
+                <a href="#">
+                    <li class="navbar__li">Cooperation</li>
+                </a>
             </ul>
 
-            <a href="https://www.linkedin.com/in/david-perez-cruz/" target="_blank"><button class="navbar__button">Contact Me</button></a>
+            <a href="https://www.linkedin.com/in/david-perez-cruz/" target="_blank"><button
+                    class="navbar__button">Contact Me</button></a>
         </nav>
     </section>
 
@@ -26,21 +35,27 @@
         <div class="main-presentation">
             <h1 class="main-presentation__h1">My name is <span class="main-presentation__span">David</span></h1>
             <p class="main-presentation__p">
-                I am a full stack developer...
+                I am a Fullstack developer with knowledge in data structures, Software design patterns, search and sort
+                algorithms, and relational and not relational databases.
+                A problem solver with teamwork skills and the ability to follow instructions and work independently.
+                Passionate about the tech world. Great at relating effectively, being flexible, learning autonomously,
+                and constantly updating
             </p>
             <a href="#"><button class="main-presentation__button">Contact Me</button></a>
         </div>
-        
+
         <div class="main-stack">
             <h2 class="main-stack__h2">My Stack</h2>
-            <span class="main-stack__span">Node JS</span>
-            <span class="main-stack__span">Django</span>
-            <span class="main-stack__span">React</span>
-            <span class="main-stack__span">MySqls</span>
+            <div class="main-stack__span__container">
+                <span class="main-stack__span span_1">Node JS</span>
+                <span class="main-stack__span span_2">Django</span>
+                <span class="main-stack__span span_3">React</span>
+                <span class="main-stack__span span_4">MySql</span>
+            </div>
         </div>
 
         <div class="main-image">
-            <!-- <img src="#" alt="profile_picture" class="main-image__profileImage"> -->
+            <img src="./images/Foto_perfil-removebg-preview.png" alt="profile_picture" class="main-image__profileImage">
             <div class="main-image__data">
                 <h2 class="main-image__h2">1+</h2>
                 <p class="main-image__p">Years of experience</p>
@@ -48,29 +63,29 @@
         </div>
     </section>
 
-    <h2 class="projects-h2">Current Projects</h2>
+    <h2 class="projects-h2">My Projects</h2>
     <section class="projects-container">
         <div class="projects-card">
-            <img src="https://picsum.photos/200" alt="#" class="projects-card__img">
+            <img src="./images/computer_1.jpg" alt="#" class="projects-card__img">
             <span class="projects-card__span">01</span>
-            <h4 class="projects-card__name">Project Name</h4>
+            <h4 class="projects-card__name">A Shell</h4>
         </div>
 
         <div class="projects-card">
-            <img src="https://picsum.photos/200" alt="#" class="projects-card__img">
+            <img src="./images/coffe.jpg" alt="#" class="projects-card__img">
             <span class="projects-card__span">02</span>
-            <h4 class="projects-card__name">Project Name</h4>
+            <h4 class="projects-card__name">Capstone Project</h4>
         </div>
 
         <div class="projects-card">
-            <img src="https://picsum.photos/200" alt="#" class="projects-card__img">
+            <img src="./images/computer_2.jpg" alt="#" class="projects-card__img">
             <span class="projects-card__span">03</span>
-            <h4 class="projects-card__name">Project Name</h4>
+            <h4 class="projects-card__name">Medical Records</h4>
         </div>
     </section>
 
     <footer class="footer">
-        
+
         <p class="footer-made">
             Made with &#129505; by David Perez
         </p>
@@ -81,4 +96,5 @@
 
     </footer>
 </body>
+
 </html>
