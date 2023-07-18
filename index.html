@@ -12,28 +12,27 @@
 </head>
 
 <body>
-    <section class="navbar-container">
+    <section class="navbar">
 
-        <nav class="navbar-container__nav" id="navbar-container__nav">
+        <nav class="container nav-container">
 
-            <ul class="navbar__ul">
-                <a href="#">
-                    <li class="navbar__li">About Me</li>
-                </a>
-                <a href="#">
-                    <li class="navbar__li">Portfolio</li>
-                </a>
-                <a href="#">
-                    <li class="navbar__li">Cooperation</li>
-                </a>
-            </ul>
+            <input class="checkbox" type="checkbox" name="" id="" />
+            <div class="hamburger-lines">
+                <span class="bar bar1"></span>
+                <span class="bar bar2"></span>
+                <span class="bar bar3"></span>
+            </div>
+            
+            <div class="menu-items">
+                <li><a href="#">About Me</a></li>
+                <li><a href="#">Portfolio</a></li>
+                <li><a href="#">Coperations</a></li>
+            </div>
 
         </nav>
 
         <a href="https://www.linkedin.com/in/david-perez-cruz/" target="_blank"><button
         class="navbar__button">Contact Me</button></a>
-
-        <a href="#" class="icon-link" onclick="myFunction()"><img src="./images/navigation-bar.png" alt="navigation-bar" class="icon"></a>
 
     </section>
 
@@ -103,21 +102,6 @@
 
     </footer>
 
-    <script>
-
-        let matchMedia = window.matchMedia("(max-width: 480px)");
-        if (matchMedia.matches) {
-            function myFunction() {
-                let element = document.getElementById("navbar-container__nav");
-                if (element.style.display === "block") {
-                    element.style.display = "none";
-                } else {
-                    element.style.display = "block";
-                }
-            }
-        }
-
-    </script>
 </body>
 
 </html>
