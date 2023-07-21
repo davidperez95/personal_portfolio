@@ -303,7 +303,7 @@ body {
     /* --------------------------------------- -----------------------------------------------------*/
 
     .navbar {
-        border: 1px solid black;
+        /* border: 1px solid black; */
         background-image: url(./images/wave-haikei.svg);
         background-repeat: no-repeat;
         background-size: cover;
@@ -319,7 +319,7 @@ body {
     }
     
     .nav-container {
-        border: 1px solid black;
+        /* border: 1px solid black; */
         display: block;
         position: relative;
         height: 60px;
