@@ -303,6 +303,7 @@ body {
     /* --------------------------------------- -----------------------------------------------------*/
 
     .navbar {
+        border: 1px solid black;
         background-image: url(./images/wave-haikei.svg);
         background-repeat: no-repeat;
         background-size: cover;
@@ -318,10 +319,11 @@ body {
     }
     
     .nav-container {
-        /* border: 1px solid black; */
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
+        border: 1px solid black;
+        display: block;
+        position: relative;
+        height: 60px;
+        width: 260px;
     }
 
     .navbar .menu-items {
@@ -343,12 +345,6 @@ body {
         color: purple;
     }
 
-    .nav-container {
-        display: block;
-        position: relative;
-        height: 60px;
-    }
-
     /* Making the hamburger */
     .nav-container .checkbox {
         position: absolute;
@@ -368,7 +364,7 @@ body {
         width: 34px;
         position: absolute;
         top: 17px;
-        left: 20px;
+        left: 60px;
         z-index: 2;
         display: flex;
         flex-direction: column;
@@ -447,7 +443,7 @@ body {
     .main-container {
         /* border: 1px solid black; */
         height: fit-content;
-        width: 100vw;
+        width: 100%;
         margin-bottom: 30px;
         padding: 5px;
         display: flex;
@@ -460,7 +456,6 @@ body {
         /* border: 1px solid black; */
         order: -1;
         display: flex;
-        padding-left: 30px;
     }
     
     .main-image__data {
@@ -473,7 +468,7 @@ body {
         text-align: start;
         padding: 10px 0 10px 10px;
         position: relative;
-        left: -400px;
+        left: -320px;
         top: 260px;
     }
 
@@ -592,7 +587,7 @@ body {
         font-size: 2.5rem;
         text-align: center;
         display: block;
-        width: 600px;
+        width: 100vw;
     }
     
     .projects-card {
@@ -617,6 +612,7 @@ body {
         top: -20%;
         left: 10%;
         color: black;
+        width: 100px;
     }
     
     .projects-card__span {
