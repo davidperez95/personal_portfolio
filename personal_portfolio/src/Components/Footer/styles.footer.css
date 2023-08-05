@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;500;700&display=swap');
+
+.footer-container {
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    height: 80px;
+}
+
+.footer-container p {
+    font-family: "Comfortaa", cursive;
+    font-weight: 300;
+    margin: 0;
+}
