@@ -9,7 +9,7 @@ const AppRoutes = () => {
     const routes = useRoutes([
       {path: "/", element: <Home />},
       {path: "/about_me", element: <AboutMe/>},
-      {path: "/portfolio", element: <Portfolio />},
+      {path: "/projects", element: <Portfolio />},
       {path: "/coperations", element: <Coperations />},
     ]);
   

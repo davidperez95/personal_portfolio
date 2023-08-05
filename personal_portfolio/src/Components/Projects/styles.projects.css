@@ -4,11 +4,20 @@
     text-align: center;
 }
 
-.projects-cards {
+.projects-cards__home {
     display: flex;
     justify-content: space-evenly;
 }
 
-.projects-cards img {
+.projects-cards__projects {
+    display: flex;
+    flex-direction: column;
+}
+
+.projects-cards__img {
     width: 300px;
+}
+
+.on-home {
+    display: none;
 }

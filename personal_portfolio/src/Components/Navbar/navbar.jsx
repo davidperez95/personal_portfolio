@@ -7,7 +7,7 @@ function Navbar () {
             <ul className="navbar-items">
                 <li className="navbar-item"><NavLink to={"/"}>Home</NavLink></li>
                 <li className="navbar-item"><NavLink to={"/about_me"}>About Me</NavLink></li>
-                <li className="navbar-item"><NavLink to={"/portfolio"}>Portfolio</NavLink></li>
+                <li className="navbar-item"><NavLink to={"/projects"}>Projects</NavLink></li>
                 <li className="navbar-item"><NavLink to={"/coperations"}>Coperations</NavLink></li>
             </ul>
 

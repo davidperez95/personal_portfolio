@@ -1,29 +1,26 @@
-import shell_computer from "../../Utils/Images/shell_computer.jpg";
-import medical_records_img from "../../Utils/Images/medical_records_img.jpg";
-import capstone_project_img from "../../Utils/Images/capstone_project_img.jpg";
-
 import "./styles.projects.css"
 
-function Projects () {
+function Projects ({ projects }) {
+
+    let currentPath = window.location.pathname;
+    let pathTokens = currentPath.split("/");
+    let lastPathToken = pathTokens.length - 1;
+    let finalPath = pathTokens[lastPathToken];
+
     return (
         <section className="projects-container">
             <h2>My Projects</h2>
-            <div className="projects-cards">
-                <div>
-                    <img src={shell_computer} alt="" />
-                    <h4>A Shell</h4>
-                    <p>01</p>
-                </div>
-                <div>
-                <img src={capstone_project_img} alt="" />
-                    <h4>Capstone Project</h4>
-                    <p>02</p>
-                </div>
-                <div>
-                <img src={medical_records_img} alt="" />
-                    <h4>Medical Records</h4>
-                    <p>03</p>
-                </div>
+            <div className={`${finalPath === "projects" ? "projects-cards__projects" : "projects-cards__home"}`}>
+                {
+                    projects.map((project, index) => (
+                        <div key={index}>
+                            <img src={project.projectImg} alt={project.projectTitle} className="projects-cards__img"/>
+                            <h4>{project.projectTitle}</h4>
+                            <p>{project.projectNumber}</p>
+                            <p className={`${finalPath === "projects" ? "" : "on-home"}`}>{project.projectDescription}</p>
+                        </div>
+                    ))
+                }
             </div>
         </section>
     )
