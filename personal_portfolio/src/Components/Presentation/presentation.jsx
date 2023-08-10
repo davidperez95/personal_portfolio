@@ -1,3 +1,5 @@
+import { NavLink } from "react-router-dom";
+
 import "./styles.presentation.css";
 import profile_image from "../../Utils/Images/profile_image.png"
 
@@ -13,6 +15,7 @@ function Presentation ({ aboutMe }) {
             <article className="presentation-article__container">
                 <h2>My name is <span>David</span></h2>
                 <p>{finalPath === "about_me" ? aboutMe.aboutPresentation : aboutMe.homePresentation}</p>
+                <button><NavLink to={"https://www.linkedin.com/in/david-perez-cruz/"}>Contact Me</NavLink></button>
             </article>
 
             <figure className="presentation-figure">
@@ -22,7 +25,8 @@ function Presentation ({ aboutMe }) {
                     className="presentation-figure__image"
                 />
                 <div>
-                    <p><span>1+</span> years of experience</p>
+                    <span>1+</span>
+                    <p>years of experience</p>
                 </div>
             </figure>
         </section>

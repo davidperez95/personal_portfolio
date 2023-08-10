@@ -2,11 +2,15 @@
 
 .navbar-container {
     border: 1px solid black;
+    background-image: url(../../Utils/Images/navbar_background.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
     display: flex;
     justify-content: space-around;
     align-items: center;
     width: 100%;
-    height: 80px;
+    height: 115px;
+    z-index: 1;
 }
 
 .navbar-items {
@@ -20,20 +24,23 @@
 .navbar-items a {
     text-decoration: none;
     font-family: 'Comfortaa', cursive;
+    font-weight: 300;
     color: black;
 }
 
 .navbar-button {
     width: 150px;
-    height: 30px;
-    border-radius: 10px;
-    background-color: gray;
+    height: 35px;
+    border-radius: 50px;
+    background-color: #023047;
     border: none;
     cursor: pointer;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
 }
 
 .navbar-button a {
     text-decoration: none;
     font-family: "Comfortaa", cursive;
-    color: black;
+    font-weight: 700;
+    color: #FFFFFF;
 }   
