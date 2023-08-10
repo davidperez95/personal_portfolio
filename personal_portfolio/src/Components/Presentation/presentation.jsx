@@ -1,12 +1,18 @@
 import "./styles.presentation.css";
 import profile_image from "../../Utils/Images/profile_image.png"
 
-function Presentation () {
+function Presentation ({ aboutMe }) {
+
+    let currentPath = window.location.pathname;
+    let pathTokens = currentPath.split("/");
+    let lastPathToken = pathTokens.length - 1;
+    let finalPath = pathTokens[lastPathToken];
+
     return (
         <section className="presentation-container">
             <article className="presentation-article__container">
                 <h2>My name is <span>David</span></h2>
-                <p>Content</p>
+                <p>{finalPath === "about_me" ? aboutMe.aboutPresentation : aboutMe.homePresentation}</p>
             </article>
 
             <figure className="presentation-figure">

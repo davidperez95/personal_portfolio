@@ -13,7 +13,7 @@ function Home () {
 
     return (
         <Layout>
-            <Presentation />
+            <Presentation aboutMe={context.aboutMe}/>
             <Stack />
             <Projects projects={context.projects}/>
             <Footer />

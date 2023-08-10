@@ -31,3 +31,8 @@ export const projects = [
         live: false,
     },
 ];
+
+export const aboutMe = {
+    homePresentation: "I am a Fullstack developer with knowledge in data structures, Software design patterns, search and sort algorithms, and relational and not relational databases. A problem solver with teamwork skills and the ability to follow instructions and work independently. Passionate about the tech world. Great at relating effectively, being flexible, learning autonomously, and constantly updating",
+    aboutPresentation: "Hello! I am passionate about the world of technology, initially I studied psychology and at one point in my life I wanted to make a change by pursuing my passions. I like challenges that involve me to get out of my comfort zone, I am a curious person for knowledge and learning. I want to be in a world that does not stop growing and that allows me to grow with it. I studied software development at Holberton School academy where I left with the knowledge and skills of a fullstack developer. I am currently improving my skills by doing projects and linking with groups for the development of large projects. I have knowledge in backend like NodeJs and Django. Frontend skills such as React. The languages I use are Javascript and Python.",
+};
