@@ -1,0 +1,10 @@
+.main-container {
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    background-color: #CCCCCC;
+    margin: 0;
+    padding: 0;
+    border: none;
+}
