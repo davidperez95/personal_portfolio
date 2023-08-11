@@ -3,6 +3,7 @@ import { PortfolioContext } from "../Context/context";
 
 import { Layout } from "../Components/Layout/layout";
 import { Projects } from "../Components/Projects/projects";
+import { Footer } from "../Components/Footer/footer";
 
 function Portfolio () {
 
@@ -10,8 +11,8 @@ function Portfolio () {
 
     return (
         <Layout>
-            <h1>Projects</h1>
             <Projects projects={context.projects}/>
+            <Footer />
         </Layout>
     )
 };

@@ -5,10 +5,10 @@ function Stack () {
         <section className="stack-container">
             <h2>My Stack</h2>
             <div className="stack-container__tech">
-                <p>NodeJs</p>
-                <p>Django</p>
-                <p>MySql</p>
-                <p>ReactJs</p>
+                <p className="stack-1">NodeJs</p>
+                <p className="stack-2">Django</p>
+                <p className="stack-3">MySql</p>
+                <p className="stack-4">ReactJs</p>
             </div>
         </section>
     )

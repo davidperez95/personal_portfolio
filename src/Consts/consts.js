@@ -18,7 +18,7 @@ export const projects = [
         projectNumber: "02",
         projectDescription: "Resume reader module, which extracts relevant information and stores it in MongoDB.",
         projectLanguajes: "Javascript, NodeJs, AngularJs, MongoDB",
-        projectIsLrojectSkills: "REST API creation, database connection, back and front integration",
+        projectSkills: "REST API creation, database connection, back and front integration",
         live: false,
     },
     {
@@ -27,7 +27,7 @@ export const projects = [
         projectNumber: "03",
         projectDescription: "Medical records web application for psychologists.",
         projectLanguajes: "Python, Django, ReactJs, MySQL",
-        projectIsLrojectSkills: "Users management, authentication and authorization, entity relationship model",
+        projectSkills: "Users management, authentication and authorization, entity relationship model",
         live: false,
     },
 ];

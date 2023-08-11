@@ -1,0 +1,13 @@
+.coperations-container {
+    background-color: #CCCCCC;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+.coperations-container h1 {
+    font-family: "Comfortaa", cursive;
+    text-align: center;
+    margin: 0;
+    padding-top: 150px;
+}
