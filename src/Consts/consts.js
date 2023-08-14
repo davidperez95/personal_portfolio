@@ -1,6 +1,9 @@
 import shell_computer from "../Utils/Images/shell_computer.jpg";
 import medical_records_img from "../Utils/Images/medical_records_img.jpg";
 import capstone_project_img from "../Utils/Images/capstone_project_img.jpg";
+import portfolio_img from "../Utils/Images/portfolio_img.jpg";
+import shoppi_app_img from "../Utils/Images/shoppi_app_img.jpg";
+import todo_app_img from "../Utils/Images/todo_app_img.jpg";
 
 export const projects = [
     {
@@ -11,6 +14,8 @@ export const projects = [
         projectLanguajes: "C",
         projectSkills: "C, linux enviroment, Shell",
         projectIsLive: false,
+        projectCode: "https://github.com/davidperez95/holbertonschool-simple_shell",
+        projectLive: "#",
     },
     {
         projectTitle: "Capstone Project",
@@ -19,7 +24,9 @@ export const projects = [
         projectDescription: "Resume reader module, which extracts relevant information and stores it in MongoDB.",
         projectLanguajes: "Javascript, NodeJs, AngularJs, MongoDB",
         projectSkills: "REST API creation, database connection, back and front integration",
-        live: false,
+        projectIsLive: false,
+        projectCode: "https://github.com/davidperez95/talanreader",
+        projectLive: "#",
     },
     {
         projectTitle: "Medical Records",
@@ -28,7 +35,42 @@ export const projects = [
         projectDescription: "Medical records web application for psychologists.",
         projectLanguajes: "Python, Django, ReactJs, MySQL",
         projectSkills: "Users management, authentication and authorization, entity relationship model",
-        live: false,
+        projectIsLive: false,
+        projectCode: "https://github.com/davidperez95/medical_records_psy",
+        projectLive: "#",
+    },
+    {
+        projectTitle: "Personal Portfolio",
+        projectImg: portfolio_img,
+        projectNumber: "04",
+        projectDescription: "Personal portfolio to show all my projects",
+        projectLanguajes: "Javascript, CSS, ReactJs",
+        projectSkills: "Components management, props management, dimanic views",
+        projectIsLive: true,
+        projectCode: "https://github.com/davidperez95/personal_portfolio",
+        projectLive: "https://david-perez-portfolio.netlify.app/",
+    },
+    {
+        projectTitle: "Shoppi App",
+        projectImg: shoppi_app_img,
+        projectNumber: "05",
+        projectDescription: "Online shop made with React, with React Pages, Routing and Context",
+        projectLanguajes: "Javascript, Tailwind CSS, ReactJs",
+        projectSkills: "Context management, fetch of Platzi fake shop API",
+        projectIsLive: true,
+        projectCode: "https://github.com/davidperez95/React_MarketPlace",
+        projectLive: "https://shopiapp.netlify.app/",
+    },
+    {
+        projectTitle: "To Do App",
+        projectImg: todo_app_img,
+        projectNumber: "06",
+        projectDescription: "Functional TODO app with local Storage",
+        projectLanguajes: "Javascript, Bootstrap, ReactJs",
+        projectSkills: "React portals, React Context",
+        projectIsLive: true,
+        projectCode: "https://github.com/davidperez95/curso-react-intro",
+        projectLive: "https://davidperez95.github.io/curso-react-intro/",
     },
 ];
 
