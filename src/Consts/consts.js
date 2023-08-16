@@ -25,7 +25,7 @@ export const projects = [
         projectLanguajes: "Javascript, NodeJs, AngularJs, MongoDB",
         projectSkills: "REST API creation, database connection, back and front integration",
         projectIsLive: false,
-        projectCode: "https://github.com/davidperez95/talanreader",
+        projectCode: "https://github.com/davidperez95/CV_Reader_module",
         projectLive: "#",
     },
     {
